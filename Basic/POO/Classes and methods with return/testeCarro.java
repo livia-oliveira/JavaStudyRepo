@@ -1,18 +1,17 @@
 public class testeCarro {
     public static void main(String[] args) {
-        Carro van = new Carro();
+        Carro carro = new Carro();
 
-        van.marca = "Fiat";
-        van.modelo = "Ducato";
-        van.numPassageiros = 10;
-        van.capCombustivel = 100;
-        van.consumoCombustivel = 0.2;
+        carro.marca = "Corolla";
+        carro.modelo = "HSJ";
+        carro.numPassageiros = 5;
+        carro.capCombustivel = 100;
+        carro.consumoCombustivel = 0.2;
 
-        System.out.println(van.marca);
-        System.out.println(van.modelo);
+        System.out.println(carro.marca);
+        System.out.println(carro.modelo);
 
-        double autonomia = van.obterAutonomia();
-        System.out.println("A autonomia do carro é "+autonomia);
-        System.out.println("A autonomia do carro é "+van.obterAutonomia());
+        double autonomia = carro.obterAutonomia();
+        System.out.println("A autonomia do carro é "+carro.obterAutonomia());
     }
 }
