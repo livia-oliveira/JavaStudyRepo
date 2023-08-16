@@ -5,6 +5,7 @@ public class Carro {
     double capCombustivel;
     double consumoCombustivel;
 
+
     Carro(){
         System.out.println("Classe carro foi instânciada");
         numPassageiros = 4;
@@ -13,6 +14,7 @@ public class Carro {
     Carro(String marca_){
         marca = marca_;
     }
+
     void ExibirAutonomia(){
         System.out.println("A autonomia do carro é "+ capCombustivel * consumoCombustivel+"km");
     }
