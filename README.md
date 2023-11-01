@@ -1,1 +1,1 @@
-﻿# JavaStudyRepo - Estudos em Java
+﻿# JavaStudyRepo - Repositório de estudos em Java
